@@ -15,7 +15,7 @@ export default function Hero() {
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>AiGov Software Company</CustomOverTitle>
-        <Heading>Building Sacalable Tech Solution for Fovernment</Heading>
+        <Heading>Building Sacalable Tech Solution for Government</Heading>
         <Description>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
           repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
