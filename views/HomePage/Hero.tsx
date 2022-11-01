@@ -17,8 +17,9 @@ export default function Hero() {
         <CustomOverTitle>AiGov Software Company</CustomOverTitle>
         <Heading>Building Sacalable Tech Solution for Government</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          AiGov adalah sebuah konsultan teknologi dengan spesialisasi di bidang pelayanan pemerintahan.
+          Terdiri dari orang-orang berpengalaman di perusahaan teknologi di Asia Tenggara,
+          Aigov dapat mengembangkan sistem dan tampilan yang komprehensif dan sesuai dengan kubutuhan masing-masing sektor pemerintahan.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
