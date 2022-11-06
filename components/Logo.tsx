@@ -46,7 +46,7 @@ export default function Logo({ ...rest }) {
           <stop offset="1" stopColor="#76BEF3"/>
         </linearGradient>
       </defs>
-    </svg>fillRule
+    </svg>
 
   );
 }
