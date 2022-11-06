@@ -15,19 +15,17 @@ export default function Hero() {
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>AiGov Software Company</CustomOverTitle>
-        <Heading>Building Sacalable Tech Solution for Government</Heading>
+        <Heading>Building Scalable Tech Solution for Government</Heading>
         <Description>
           AiGov adalah sebuah konsultan teknologi dengan spesialisasi di bidang pelayanan pemerintahan.
-          Terdiri dari orang-orang berpengalaman di perusahaan teknologi di Asia Tenggara,
-          Aigov dapat mengembangkan sistem dan tampilan yang komprehensif dan sesuai dengan kubutuhan masing-masing sektor pemerintahan.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Hubungi Kami <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Lebih Lanjut <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
