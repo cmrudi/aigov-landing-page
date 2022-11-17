@@ -4,6 +4,8 @@ import AutofitGrid from 'components/AutofitGrid';
 import BasicCard from 'components/BasicCard';
 import Container from 'components/Container';
 import { media } from 'utils/media';
+import OverTitle from '../../components/OverTitle';
+import SectionTitle from '../../components/SectionTitle';
 
 const FEATURES = [
   {
@@ -65,6 +67,10 @@ const FEATURES = [
 export default function Features() {
   return (
     <FeaturesWrapper>
+      <Content>
+        <OverTitle>features</OverTitle>
+        <SectionTitle>What are you signing in for?</SectionTitle>
+      </Content>
       <CustomAutofitGrid>
         {FEATURES.map((singleFeature, idx) => (
           <BasicCard key={singleFeature.title} {...singleFeature} />
@@ -74,11 +80,20 @@ export default function Features() {
   );
 }
 
+
+
 const FeaturesWrapper = styled(Container)`
   margin-top: 4rem;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+`;
+
+const Content = styled.div`
+  & > *:not(:first-child) {
+    margin-top: 1rem;
+  }
+  text-align: center;
 `;
 
 const CustomAutofitGrid = styled(AutofitGrid)`
