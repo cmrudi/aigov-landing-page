@@ -9,7 +9,7 @@ import SectionTitle from '../../components/SectionTitle';
 
 const FEATURES = [
   {
-    imageUrl: '/grid-icons/asset-1.svg',
+    imageUrl: '/grid-icons/user-research.svg',
     title: 'User-Centric Design.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
