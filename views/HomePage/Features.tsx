@@ -83,7 +83,7 @@ export default function Features() {
 
 
 const FeaturesWrapper = styled(Container)`
-  margin-top: 4rem;
+  margin-top: 6rem;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -94,6 +94,7 @@ const Content = styled.div`
     margin-top: 1rem;
   }
   text-align: center;
+  margin-bottom : 5rem;
 `;
 
 const CustomAutofitGrid = styled(AutofitGrid)`
