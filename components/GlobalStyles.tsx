@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   --background: 251,251,253;
   --secondBackground: 255,255,255;
   --text: 10,18,30;
-  --textSecondary: 255,255,255;
+  --textSecondary: 242,242,242;
   --primary: 25,4,53; 
   --secondary: 10,18,30;
   --tertiary: 231,241,251;
@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
   --background: 26,32,44;
   --secondBackground: 45,55,72;
   --text: 237,237,238;
-  --textSecondary: 255,255,255;
+  --textSecondary: 242,242,242;
   --primary: 25,4,53; 
   --secondary: 10,18,30;
   --tertiary: 231,241,251;
