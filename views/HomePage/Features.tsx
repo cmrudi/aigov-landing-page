@@ -64,15 +64,19 @@ const FEATURES = [
 
 export default function Features() {
   return (
-    <Container>
+    <FeaturesWrapper>
       <CustomAutofitGrid>
         {FEATURES.map((singleFeature, idx) => (
           <BasicCard key={singleFeature.title} {...singleFeature} />
         ))}
       </CustomAutofitGrid>
-    </Container>
+    </FeaturesWrapper>
   );
 }
+
+const FeaturesWrapper = styled(Container)`
+  margin-top: 4rem;
+`;
 
 const CustomAutofitGrid = styled(AutofitGrid)`
   --autofit-grid-item-size: 40rem;
