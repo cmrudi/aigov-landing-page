@@ -21,13 +21,13 @@ const FEATURES = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-3.svg',
+    imageUrl: '/grid-icons/ideation-process.svg',
     title: 'Ideation Process.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-4.svg',
+    imageUrl: '/grid-icons/risk-management.svg',
     title: 'Risk Management.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
