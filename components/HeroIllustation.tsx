@@ -1,6 +1,6 @@
 export default function HeroIllustration() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="570" height="535" viewBox="0 0 570 535" fill="none">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="570" height="535" viewBox="0 0 570 535" fill="none">
       <rect width="570" height="535" fill="url(#pattern0)"/>
       <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
