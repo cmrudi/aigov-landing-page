@@ -27,7 +27,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           {/*<Partners />*/}
-          <BasicSection imageUrl="/finance.svg" title="Lebih Bagus ada Headline" overTitle="Tentang Kami">
+          <BasicSection imageUrl="/new-product.svg" title="Lebih Bagus ada Headline" overTitle="Tentang Kami">
             <p>
               Terdiri dari orang-orang berpengalaman di perusahaan teknologi di Asia Tenggara.
               Aigov dapat mengembangkan sistem dan tampilan yang komprehensif dan sesuai dengan kubutuhan masing-masing sektor pemerintahan.
